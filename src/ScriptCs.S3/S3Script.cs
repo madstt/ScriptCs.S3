@@ -21,7 +21,7 @@ namespace ScriptCs.S3
             Guard.AgainstNullArgument("bucket", bucket);
 
             _bucket = bucket;
-            _transferUtility = new TransferUtility("AKIAJ2M5DGCCO5AQBZZQ", "ba5ZBIQWHfbtHoHPnXmCUAXOovAsl9W4bdF5Bomc", RegionEndpoint.GetBySystemName("us-east-1"));
+            _transferUtility = new TransferUtility("", "", RegionEndpoint.GetBySystemName("us-east-1"));
 
 
             return this;
